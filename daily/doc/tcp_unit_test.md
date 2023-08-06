@@ -117,7 +117,7 @@ AsyncWrite를 구현하고 있어 AsyncReadExt와 AsyncWriteExt의 편의 기능
     #[tokio::test]
     async fn listen_connect() {
 ```
-{% endcode }
+{% endcode %}
 
 `#[tokio::test]`는 `async` 함수를 테스트로 실행할 수 있도록 한다. cargo test로 실행 가능하고 
 tokio 런타임에서 실행한다. 
