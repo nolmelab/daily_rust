@@ -1,4 +1,6 @@
 # Table of contents
 
-* [들어가며](doc/introduction.md)
-* [tcp 단위 테스트](doc/tcp_unit_test.md)
+* [소개](README.md)
+* [결심](daily/doc/introduction.md)
+* [tcp 단위 테스트](daily/doc/tcp_unit_test.md)
+
