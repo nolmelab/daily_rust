@@ -157,7 +157,7 @@ tokio 런타임에서 실행한다.
       }
   } 
 ```
-{% endcode }
+{% endcode %}
 
 
 {% code lineNumbers="true" %}
