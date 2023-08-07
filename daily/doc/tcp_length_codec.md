@@ -162,3 +162,14 @@ mod tests {
 }
 ```
 {% endcode %}
+
+SinkExt와 StreamExt 코드를 보면 마음이 편안하지는 않다. C++이나 C#에서 구현하는 추상화 
+방법과 다르고 추상화 수준도 달라서 그런 듯 하다. 
+
+Stream은 Poll을 리턴하는 poll_next() 메서드를 갖고 StreamExt는 이것만 사용해서 모든 
+필요한 기능을 구현하고 있다. 이는 AsyncRead와 AsyncReadExt의 관계와 비슷하다. 
+
+SinkExt는 Sink를 확장(상속)하고 AsyncWrite, AsyncWriteExt와 비슷하게 구현된다. 처리 방향만
+다르고 결국 StreamExt가 하고자 하는 일과 같다. 주고 받는 Item에 대한 변형이나 처리를 
+함수형 언어처럼 구조화를 한다. 
+

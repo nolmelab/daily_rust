@@ -81,10 +81,6 @@ mod tests {
                 // Asynchronously wait for an inbound socket.
                 let (stream, _) = listener.accept().await?;
 
-                // 읽기만 해서는 안 되므로 쓰는 것도 필요하다.
-
-                // 쓰는 건 어떻게 하는가?
-
                 tokio::spawn(async move {
                     // LengthCodec이 구현한 Decoder가 framed 함수를 제공한다. 
                     let mut framed = LengthCodec::new().framed(stream);
