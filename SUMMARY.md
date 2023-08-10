@@ -8,4 +8,6 @@
   * [ratatui sample 1](daily/doc/tui_1st.md)
   * [ratatui sample 2](daily/doc/tui_2nd.md)
   * [ratatui chart](daily/doc/tui_chart.md)
-
+* [actix 액터](daily/doc/actix.md)
+  * [actix 시작](daily/doc/actix_start.md)
+ 
