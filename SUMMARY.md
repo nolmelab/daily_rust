@@ -19,4 +19,6 @@
 
 * [디렉토리 순회와 작업](daily/doc/dir_copy.md)
 
+* [채팅 서버](daily/doc/chat_server.md)
+
  
