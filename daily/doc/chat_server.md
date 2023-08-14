@@ -13,4 +13,52 @@
 지원이 가능할 것 같습니다. 
 
 위치 투명성 (Locational transparency)를 갖는 액터 시스템이 아직 러스트 생태계에서 보이지 
-않고 Riker는 TODO 목록에 있고, Oc
+않고 Riker는 TODO 목록에 있는 상태입니다. 
+
+## Actor 크레이트들 
+
+러스트와 비동기 틀이 액터와 잘 맞고 아직 완전한 분산 시스템으로 동작하는 액터 프레임워크가 
+없기 때문에 많은 프로젝트들이 진행되고 있습니다. 이는 좋은 일이지만 아직 갈 길이 멀다는 
+뜻이기도 합니다. 
+
+- Actix
+- Riker 
+- Ractor 
+- [Coerce-rs](https://github.com/LeonHartley/Coerce-rs)
+
+Coerce-rs는 Protobuf로 네트워킹을 제공하고 Redis로 storage와 pub/sub 기능을 위해 사용하고 
+있습니다. 네트워킹 통합을 위한 코드를 보면 도움이 많이 될 것입니다.
+  
+게임 서버 프로젝트들이 러스트에서는 드문 편입니다. 특이한 현상입니다. 웹 프레임워크가 훨씬 
+더 많습니다. 이는 C++ 과는 대조적입니다. github topic에도 정리되는 내용이 적습니다. 
+
+- naia 
+- [citybound](https://github.com/citybound/citybound)
+
+비동기를 활용하고 서비스들과 클라이언트를 액터화 하여 게임 시스템 단위로 구조화하면 매우 
+잘 구성된 게임 서버를 만들 수 있을 것으로 기대하고 있습니다. 
+
+시작으로 간단한 채팅 서버를 이에 맞춰 개발을 진해합니다. 기존의 액터 시스템을 할용하는 
+방식으로 진행해도 괜찮을 듯 합니다. Riker와 Ractor 중에 선택해야 할 것 같습니다. 
+
+## Roadmap 
+
+- Json Codec (Length)
+- 메세지 핸들러 
+
+- Single Node Chat Server 
+  - RoomManager
+  - Room 
+  - Session 
+
+- Actor화 
+  - 각 구조의 액터화 
+  - 다듬기 
+
+- Multi Node Chat Server 
+  - Matrix나 XMPP 프로토콜 참고 
+  - 다른 서버간 정보 전달 구조 
+
+
+
+
