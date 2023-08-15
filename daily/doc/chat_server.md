@@ -26,6 +26,13 @@
 - Ractor 
 - [Coerce-rs](https://github.com/LeonHartley/Coerce-rs)
 
+Actix는 러스트의 비동기 런타임이 성숙하기 전에 이를 보완하기위한 기능들 포함하여 개발된 
+것으로 보입니다. 이와 관련된 기법들이나 코드들을 살펴볼 수 있습니다. 
+
+Ractor는 Erlang의 모델을 많이 가져와 적용하려고 하고 있습니다. Erlang의 모델은 액터 모델이기 
+때문에 결국 액터 모델에 충실하다고 생각할 수 있습니다. ractor_cluster에서 여러 노드에서 
+액터를 두고 서로 통신하면서 처리할 수 있는 기능을 포함하고 있습니다. 
+
 Coerce-rs는 Protobuf로 네트워킹을 제공하고 Redis로 storage와 pub/sub 기능을 위해 사용하고 
 있습니다. 네트워킹 통합을 위한 코드를 보면 도움이 많이 될 것입니다.
   
@@ -52,12 +59,17 @@ Coerce-rs는 Protobuf로 네트워킹을 제공하고 Redis로 storage와 pub/su
   - Session 
 
 - Actor화 
+  - ractor의 활용
   - 각 구조의 액터화 
+  - 여러 클라이언트를 지원하는 액터 내 통신과 처리 구조 
   - 다듬기 
 
 - Multi Node Chat Server 
-  - Matrix나 XMPP 프로토콜 참고 
-  - 다른 서버간 정보 전달 구조 
+  - ractor_cluster로 채팅 기능 확장 
+  - XMPP와 Matrix 프로토콜 참고하여 구현 
+
+여러 프로젝트 코드들을 살펴보면서 밑단부터 직접 구현하는 모델과 ractor를 활용한 구현을 
+시도하면서 ractor 프로젝트에 참여하여 앞으로 갈지 결정하게 될 것 같습니다. 
 
 
 
