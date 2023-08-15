@@ -19,6 +19,9 @@
 
 * [디렉토리 순회와 작업](daily/doc/dir_copy.md)
 
+* [tcp perf](daily/doc/tcp_perf.md)
+  * [tcp perf - ratatui](daily/doc/tcp_perf_ratatui.md)
+
 * [채팅 서버](daily/doc/chat_server.md)
 
  
