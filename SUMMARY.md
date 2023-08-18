@@ -19,6 +19,8 @@
 
 * [디렉토리 순회와 작업](daily/doc/dir_copy.md)
 
+* [매크로 공부](daily/doc/learn_macros.md)
+
 * [tcp perf](daily/doc/tcp_perf.md)
   * [tcp perf - ratatui](daily/doc/tcp_perf_ratatui.md)
 
