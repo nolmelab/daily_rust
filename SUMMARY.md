@@ -26,5 +26,8 @@
 
 * [채팅 서버](daily/doc/chat_server.md)
 
+* [사소한 연습들](daily/doc/misc.md)
+  * [엔디안](daily/doc/byteorder.md)
+
  
 
