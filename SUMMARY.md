@@ -24,6 +24,7 @@
 * [tcp perf](daily/doc/tcp_perf.md)
   * [tcp perf - ratatui](daily/doc/tcp_perf_ratatui.md)
   * [plotters](daily/doc/tcp_plot.md)
+  * [tcp perf - logger](daily/doc/tcp_perf_logger.md)
 
 * [채팅 서버](daily/doc/chat_server.md)
 
