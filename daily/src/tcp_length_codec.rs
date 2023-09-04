@@ -67,9 +67,9 @@ mod tests {
     use super::LengthCodec;
     use anyhow;
     use bytes::{ Buf, BufMut, Bytes, BytesMut };
-    use futures::SinkExt; // StreamExt는 tokio에 있는 걸 사용하고
     use tokio::net::{ TcpListener, TcpStream };
     use tokio_stream::StreamExt;
+    use futures::SinkExt;
     use tokio_util::codec::Decoder;
 
     #[tokio::test]
