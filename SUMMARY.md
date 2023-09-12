@@ -27,9 +27,9 @@
   * [logger](daily/doc/tcp_perf_logger.md)
 
 * [채팅 서버](daily/doc/chat_server.md)
-  * [json frame][daily/doc/json_frame.md]
+  * [json frame](daily/doc/json_frame.md)
 
-* [ractor][daily/doc/ractor_monte_carlo.md]
+* [ractor](daily/doc/ractor_monte_carlo.md)
 
 * [사소한 연습들](daily/doc/misc.md)
   * [엔디안](daily/doc/byteorder.md)
